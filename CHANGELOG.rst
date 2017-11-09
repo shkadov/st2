@@ -23,7 +23,8 @@ Added
 
 Changed
 ~~~~~~~
-
+* Update service.py to solve issue of launching services on Centos Linux #3843 
+  Contributed by @shkadov
 * ``st2actions.runners.pythonrunner.Action`` class path for base Python runner actions has been
   deprecated since StackStorm v1.6.0 and will be fully removed in StackStorm v2.7.0. If you have
   any actions still using this path you are encouraged to update them to use
